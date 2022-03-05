@@ -16,14 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-4q-FEC">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-4q-FEC">
                                 <rect key="frame" x="132" y="64" width="150" height="510"/>
                                 <subviews>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BD5-Or-rMs">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="BD5-Or-rMs" secondAttribute="height" multiplier="1:1" id="IzA-90-gSY"/>
+                                            <constraint firstAttribute="width" secondItem="BD5-Or-rMs" secondAttribute="height" multiplier="1:1" id="eEI-7y-C94"/>
                                         </constraints>
                                     </view>
                                     <view autoresizesSubviews="NO" alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdJ-Z5-coS">
@@ -37,7 +37,7 @@
                                 </subviews>
                                 <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fad-vl-GyF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fad-vl-GyF">
                                 <rect key="frame" x="132" y="789" width="150" height="31"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
@@ -55,9 +55,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="lOu-4q-FEC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FQ8-xc-4cC"/>
-                            <constraint firstItem="lOu-4q-FEC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.569196" id="SBA-Kw-IOL"/>
+                            <constraint firstItem="lOu-4q-FEC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AbD-sC-IC5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fad-vl-GyF" secondAttribute="bottom" constant="42" id="ciE-JR-2EB"/>
                             <constraint firstItem="Fad-vl-GyF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jSi-be-zb5"/>
+                            <constraint firstItem="lOu-4q-FEC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ngI-yL-izV"/>
+                            <constraint firstItem="lOu-4q-FEC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.569196" id="p6d-I2-qdG"/>
                         </constraints>
                     </view>
                     <connections>
